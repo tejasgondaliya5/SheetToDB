@@ -45,7 +45,7 @@ A Django REST API for bulk uploading Employee and Company data from Excel/CSV fi
 
 ### Bulk Upload API
 
-- **Endpoint:** `POST /employee/upload/`
+- **Endpoint:** `POST api/employee/upload/`
 - **Payload:** `multipart/form-data` with a `file` field containing your `.csv` or `.xlsx` file.
 
 #### Example using `curl`:
